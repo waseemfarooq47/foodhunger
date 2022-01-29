@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+body {
+    /* background-color: #23f500; */
+    margin: auto;
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+}
+
+#header{
+    height:60px;
+    background-color:#d2a08c
+}
+/* css for logo*/
+#icon{
+    font-size:30px;
+    color:#13648c;
+    margin-left: 1%;
+    margin-top: 0%;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 5px;
+}
+#nav{
+    float: left;
+    margin-left: 20%;
+}
+#social{
+    float: right;
+    margin-right: 1%;
+}
+a{
+    text-decoration: none
+}
+.slogo{
+    height:50px;
+    width:50px;
+}
+
+#content{
+    width: 90%;
+    height: 600px;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+#imgDiv{
+    width: 45%;
+    height: 420px;
+    margin-top: 3%;
+    margin-left: 2%;
+    float: left;
+}
+
+#imgDiv>img{
+    width: 100%;
+    height: 100%;
+}
+
+#textDiv{
+    width: 48%;
+    height: 600px;
+    margin-top: 1%;
+    margin-left: 2%;
+    float: left;
+}
+
+.checked{
+    color:green;
+}
+
+.icon{
+    display: inline-block;
+    margin-left:2%
+}
+
+.stock{
+    font-size: 27px;
+    color:green;
+    animation: shake 0.9s;
+    animation-iteration-count: infinite;
+}
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+
+
+
+.btn{
+    height: 35px;
+    width: 132px;
+    font-size: 14px;
+}
+
+.btn-checkout{
+    /* background-color:rgb(52, 201, 52); */
+    border: 3px solid rgb(8, 75, 8);
+    color:rgb(8, 75, 8);
+    font-size: 14px;
+    margin-right: 15px;
+}
+
+.btn-checkout:hover{
+    background:rgb(8, 75, 8);
+    color: #ffffff;
+}
+
+.btn-atc{
+    /* background-color:rgb(243, 62, 62); */
+    border: 3px solid rgb(243, 62, 62);
+    color:rgb(243, 62, 62);
+    font-size:14px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.btn-atc:hover{
+    background:rgb(243, 62, 62);
+    color: #ffffff;
+}
+
+.cartBtn{
+    width:50px;
+    margin-left:0%;
+}
+
+.menu-det{
+    font-family: "satisfy",cursive;
+    color: #ffffff;
+    text-align: center;
+}
+
+.menu-ccdet{
+    font-family: "satisfy",cursive;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.mimg-cover{
+    display:flex;
+    align-items: center;
+    justify-content:center
+}
+
+.round-div{
+    height: 300px;
+    width: 300px;
+    border: 10px solid #b9b5b5 !important;
+    border-radius: 50% !important;
+    overflow: hidden;
+    margin: 0 auto;
+    
+}
+
+.round-div img{
+    width: 100%;
+    height: 100%;
+}
+
+.tab-tags,.menu-restname{
+    font-family: "satisfy",cursive;
+    color:rgb(243, 62, 62);
+    font-size: 16px;
+}
+
+.react-tabs__tab--selected{
+    color:rgb(243, 62, 62) !important;
+    border: 1px solid rgb(243, 62, 62) !important;
+}
+
+.menu-restname{
+    font-size: 25px !important;
+}
+
+.menudet{
+    font-size: 14px !important;
+}
+
+.magenta{
+    min-height: 90px;
+    float: left !important;
+    border: 1px solid #eee;
+}

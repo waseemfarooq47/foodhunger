@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+
+.log-title{
+    font-family: "satisfy",cursive;
+    font-size:25px;
+}
+
+.log-cc{
+    border: 1px solid #eee;
+    padding: 5%;
+    cursor: pointer;
+}
+
+.log-cc:hover{
+    /* box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px; */
+    border-radius: 13px;
+}
+
+
+.log-cc label,.ord-costt{
+    font-family: 'Satisfy', cursive;
+    font-size:18px;
+    color:#d9534f;
+}
+
+.log-cc input{
+    height:45px;
+    border-radius: 25px;;
+    font-size:14px;
+    color: #666666;
+    margin-top: 3%;
+}
+
+.log-cc input:focus{
+    border: 2px solid #d9534f;
+    box-shadow:none;
+    outline:none;
+}
+
+.mn-btn{
+    height: 40px;
+    width: 180px;
+    background: #d9534f;
+    margin: 20px;
+    /* float: left; */
+    border:0px;
+    color:#fff;
+    box-shadow: 0 0 1px #ccc;
+    border-radius:30px;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+    -webkit-box-shadow: 0px 0px 0 0 #31708f inset , 0px 0px 0 #31708f inset;
+}
+
+    
+.mn-btn:hover{
+    box-shadow: 0px 50px 0 0px #5cb85c inset , 0px -50px 0 0px #5cb85c inset; 
+}

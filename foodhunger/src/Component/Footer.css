@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+.social-handle a img{
+    height: 50px;
+    width: 50px;
+}
+
+.title-footer{
+    font-family: 'Satisfy', cursive;
+    letter-spacing:1.35px;
+}

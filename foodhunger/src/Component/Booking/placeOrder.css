@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+
+.orderItems{
+    float:left;
+    /* height:300px; */
+    height:260px;
+    /* width:250px; */
+    width:230px;
+    margin:2%;
+    /* box-shadow:10px 10px 20px gray */
+    border: 2px solid #eee;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.orderItems:hover{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border: none;
+    border-radius: 20px;;
+}
+
+/* .orderItems>img{
+   height:200px;
+   width:100%
+} */
+
+.pp-title{
+    font-weight: 900 !important;
+    font-size: 26px;
+    font-family: 'Satisfy', cursive;
+}
+
+.plc-crd{
+    border: 1px solid #eee;
+    padding: 5%;
+    cursor: pointer;
+}
+
+.plc-crd:hover{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 13px;
+}
+
+.plc-crd label,.ord-costt{
+    font-family: 'Satisfy', cursive;
+    font-size:18px;
+    color:#d9534f;
+}
+
+.plc-crd input{
+    height:45px;
+    border-radius: 25px;;
+    font-size:14px;
+    color: #666666;
+    margin-top: 3%;
+}
+
+.plc-crd input:focus{
+    border: 2px solid #d9534f;
+    box-shadow:none;
+    outline:none;
+}
+
+.ord-name{
+    white-space: nowrap;
+    font-size: 17px;
+    width: 220px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.img-cprd{
+    height:150px;
+    width:150px;
+    border-radius: 50%;
+    border: 3px solid #d9534f;;
+    margin: auto;
+    overflow: hidden;
+}
+
+.img-cprd img{
+    height:100%;
+    width:100%
+ }
+
+ .mn-amount{
+     font-family: 'Poppins',sans-serif;
+ }
+
+
+ .mn-btn{
+    height: 45px;
+    font-size: 16px;
+    width: 200px;
+ }
